@@ -1,3 +1,9 @@
+:root {
+  --blue: #00a3ff;
+  --white: #ffffff;
+  --grey: #c4c4c4;
+}
+
 html,
 body {
   padding: 0;
@@ -12,11 +18,6 @@ a {
 }
 
 * {
-  box-sizing: border-box;
-}
-
-h1,
-p {
   padding: 0;
   margin: 0;
 }

@@ -1,5 +1,20 @@
 .container {
-  width: auto;
-  height: 200px;
-  background-color: red;
+  background-color: var(--white);
+  border-bottom: 1px var(--grey) solid;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 1.5em;
+}
+
+.logo {
+  color: var(--blue);
+}
+
+.profile {
+  color: var(--blue);
 }
