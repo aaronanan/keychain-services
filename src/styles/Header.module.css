@@ -3,12 +3,42 @@
   border-bottom: 1px var(--grey) solid;
 }
 
+.navContainer {
+  background-color: var(--lightblue);
+  border-bottom: 1px var(--grey) solid;
+}
+
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 1em 1.5em;
+  padding: 1em 20%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 20%;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+}
+
+.navText {
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.navText:hover {
+  border-bottom: 2px var(--blue) solid;
 }
 
 .logo {
@@ -17,4 +47,5 @@
 
 .profile {
   color: var(--blue);
+  flex-shrink: 0;
 }

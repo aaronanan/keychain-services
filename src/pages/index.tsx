@@ -5,11 +5,13 @@ import Image from 'next/image';
 
 // components
 import Header from 'components/Header/Header';
+import Navbar from 'components/Header/Navbar';
 
 const Home: NextPage = () => (
   // <div className={styles.container}>
   <div>
     <Header />
+    <Navbar />
 
     {/* <Head>
       <title>Create Next App</title>
