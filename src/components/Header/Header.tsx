@@ -5,7 +5,9 @@ import { VscAccount } from 'react-icons/vsc';
 const Header: React.FC = () => (
   <div className={styles.container}>
     <div className={styles.header}>
-      <h1 className={styles.logo}>{process.env.titleName}</h1>
+      <h1 className="text-3xl font-semibold text-primary">
+        {process.env.titleName}
+      </h1>
       <VscAccount size={25} className={styles.profile} />
     </div>
   </div>
