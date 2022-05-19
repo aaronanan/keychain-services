@@ -4,6 +4,9 @@ const nextConfig = {
   env: {
     titleName: 'keychain',
   },
+  images: {
+    domains: ['i.pravatar.cc'],
+  },
 };
 
 module.exports = nextConfig;
